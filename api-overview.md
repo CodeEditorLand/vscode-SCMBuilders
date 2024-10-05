@@ -1,11 +1,16 @@
 # VS Code SCM API Overview
 
-This page is where we will build up the documentaiton for that will end up on our website for SCM Provider creators.  It will be much like the docs for [language extensions](http://code.visualstudio.com/docs/extensions/language-support) and [debuggers](http://code.visualstudio.com/docs/extensionAPI/api-debugging).
+This page is where we will build up the documentaiton for that will end up on
+our website for SCM Provider creators. It will be much like the docs for
+[language extensions](http://code.visualstudio.com/docs/extensions/language-support)
+and [debuggers](http://code.visualstudio.com/docs/extensionAPI/api-debugging).
 
 However, right now it's a work in progress :)
 
 ## Relevant Preview APIs
-This is a snapshot so you can scan the relevant APIs.  You should refer to [this file for the actual current API](https://raw.githubusercontent.com/Microsoft/vscode/master/src/vs/vscode.proposed.d.ts).
+
+This is a snapshot so you can scan the relevant APIs. You should refer to
+[this file for the actual current API](https://raw.githubusercontent.com/Microsoft/vscode/master/src/vs/vscode.proposed.d.ts).
 
 ```TypeScript
 declare module 'vscode' {
@@ -95,5 +100,3 @@ declare module 'vscode' {
 	export function computeDiff(oneDocument: TextDocument, otherDocument: TextDocument): Thenable<LineChange[]>;
 }
 ```
-
-
