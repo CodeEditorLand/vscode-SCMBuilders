@@ -3,7 +3,7 @@
 Getting going with the API is surprisingly simple and of course pending your feedback we will work to make it even easier.
 
 ## The Basics
-The SCM Extension you will create is just like any other extension for VS Code.  We have a good overview of [how to get going with a basic 'Hello World' extension](https://code.visualstudio.com/docs/extensions/example-hello-world) which covers off all of the tool chain (incl. debugging and self hosting) and the structure that is created around an extension. 
+The SCM Extension you will create is just like any other extension for VS Code.  We have a good overview of [`how to get going with a basic 'Hello World' extension`](https://code.visualstudio.com/docs/extensions/example-hello-world) which covers off all of the tool chain (incl. debugging and self hosting) and the structure that is created around an extension. 
 
 ## Enabling the Preview API
 The API is currently in a preview state (this will change in the next release - early April).  Preview API's have a few constraints:
@@ -27,11 +27,11 @@ This will not be required once the API moves out of preview.  But we have it her
 ### Add the Proposed API to your `src` folder
 To get full IntelliSense and access to the API you need to copy in the latest version of the API File to our extensions `src` folder.
 
-> Go grab the [latest version](https://raw.githubusercontent.com/Microsoft/vscode/master/src/vs/vscode.proposed.d.ts) and copy it in.
+> Go grab the [`latest version`](https://raw.githubusercontent.com/Microsoft/vscode/master/src/vs/vscode.proposed.d.ts) and copy it in.
 
 
 
 ## Seeing other Implementations
 
-It can be useful to review how others are adoption the API and there is [a list of repos and samples](https://github.com/Microsoft/vscode-SCMBuilders/wiki) to review.  We would love you to add a reference to any work you are doing to that list as well.
+It can be useful to review how others are adoption the API and there is [`a list of repos and samples`](https://github.com/Microsoft/vscode-SCMBuilders/wiki) to review.  We would love you to add a reference to any work you are doing to that list as well.
 
