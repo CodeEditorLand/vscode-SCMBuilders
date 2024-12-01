@@ -10,7 +10,7 @@ However, right now it's a work in progress :)
 ## Relevant Preview APIs
 
 This is a snapshot so you can scan the relevant APIs. You should refer to
-[`this file for the actual current API`](HTTPS://raw.githubusercontent.com/Microsoft/vscode/master/src/vs/vscode.proposed.d.ts).
+[`this file for the actual current API`](https://raw.githubusercontent.com/Microsoft/vscode/master/src/vs/vscode.proposed.d.ts).
 
 ```TypeScript
 declare module 'vscode' {
